@@ -1,6 +1,6 @@
 # QuizMaster
 
-Nowoczesna aplikacja E-learningowa do tworzenia, rozwiązywania i zarządzania quizami. 
+Nowoczesna aplikacja E-learningowa do tworzenia, rozwiązywania i zarządzania quizami. (work in progress!)
 
 ## Spis treści
 - [Opis](#opis)
@@ -23,7 +23,7 @@ QuizMaster to pełny serwis E-learningowy (frontend + backend), umożliwiający:
 
 ## Funkcje
 - Rejestracja i logowanie użytkowników
-- Tworzenie, edycja i usuwanie własnych quizów
+- Tworzenie i usuwanie własnych quizów
 - Rozwiązywanie quizów z limitem czasu
 - Przeglądanie quizów wg kategorii, poziomu, języka
 - Statystyki quizów i użytkownika
@@ -81,7 +81,8 @@ quizmaster/
    (domyślnie na porcie 5000)
 4. **Uruchom frontend:**
    ```
-   cd ../client
+   otwórz nowy terminal
+   cd quizmaster/client
    npm start
    ```
    (aplikacja dostępna na http://localhost:3000)
@@ -91,7 +92,7 @@ quizmaster/
 - **Tworzenie quizu:** Przejdź do "Utwórz quiz", wypełnij formularz, dodaj pytania, zapisz.
 - **Przeglądanie quizów:** Wybierz "Przeglądaj quizy", filtruj wg kategorii, poziomu, języka.
 - **Rozwiązywanie quizu:** Kliknij "Zobacz quiz" → "Rozpocznij quiz". Po zakończeniu zobaczysz wynik.
-- **Wyniki i statystyki:** Przejdź do "Wyniki" lub "Profil".
+- **Wyniki i statystyki:** Przejdź do "Wyniki".
 - **Zmiana języka/motywu:** Użyj przycisków w prawym górnym rogu (lub w menu mobilnym).
 
 ## Autor
