@@ -40,7 +40,7 @@ QuizMaster to pełny serwis E-learningowy (frontend + backend), umożliwiający:
 
 ## Struktura projektu
 ```
-zaliczenie/
+quizmaster/
   client/         # Frontend React
     src/
       components/ # Komponenty UI (Navbar, itp.)
