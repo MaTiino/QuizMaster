@@ -232,9 +232,10 @@ const getUserQuizzes = (username) => {
 // Funkcje dla wyników
 const saveResult = (result) => {
   return new Promise((resolve, reject) => {
+    const completedAt = new Date().toISOString();
     db.run(
-      'INSERT INTO results (id, user_id, username, quiz_id, answers, time_spent, score, total_questions) VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
-      [result.id, result.userId, result.username, result.quizId, serializeArray(result.answers), result.timeSpent, result.score, result.totalQuestions],
+      'INSERT INTO results (id, user_id, username, quiz_id, answers, time_spent, score, total_questions, completed_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)',
+      [result.id, result.userId, result.username, result.quizId, serializeArray(result.answers), result.timeSpent, result.score, result.totalQuestions, completedAt],
       function(err) {
         if (err) reject(err);
         else resolve(this.lastID);
