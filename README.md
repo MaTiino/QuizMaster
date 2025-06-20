@@ -60,8 +60,8 @@ quizmaster/
 ## Instalacja i uruchomienie
 1. **Klonuj repozytorium:**
    ```
-   git clone <adres-repo>
-   cd zaliczenie
+   git clone https://github.com/MaTiino/QuizMaster
+   cd quizmaster
    ```
 2. **Zainstaluj zależności:**
    - Frontend:
