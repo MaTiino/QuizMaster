@@ -347,7 +347,7 @@ const QuizList = () => {
                 </StatsRow>
                 <ActionButton to={`/quiz/${quiz.id}`}>
                   <FiEye />
-                  {t('Zobacz')}
+                  {t('Podgląd')}
                 </ActionButton>
               </QuizStats>
             </QuizCard>
